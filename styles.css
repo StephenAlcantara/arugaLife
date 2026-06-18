@@ -1,5 +1,5 @@
 /* ============================================================
-   EVERA - design tokens
+   ARUGALIFE - design tokens
    ============================================================ */
 :root{
   --cream:        #F7F3E9;
@@ -184,35 +184,34 @@ em{ font-style:italic; color:var(--terra-dark) }
    ============================================================ */
 .services{ padding:clamp(3.5rem,7vw,6rem) 0; background:linear-gradient(180deg,var(--cream),var(--cream-deep)) }
 
-/* Aruga Life flagship */
-.aruga{
+/* Evera flagship */
+.flagship{
   position:relative; overflow:hidden; display:grid; grid-template-columns:1.55fr .9fr; align-items:center;
   gap:2rem; margin-bottom:3rem; padding:clamp(2rem,4vw,3.2rem);
   border-radius:var(--r-lg); color:#fff;
   background:linear-gradient(150deg,var(--green-deep),#3c5a47 60%,#43614c);
   box-shadow:var(--shadow-lg);
 }
-.aruga__glow{
+.flagship__glow{
   position:absolute; top:-120px; right:-60px; width:340px; height:340px; border-radius:50%;
   background:radial-gradient(circle,rgba(232,165,60,.45),transparent 65%); animation:pulse 6s ease-in-out infinite;
   pointer-events:none;
 }
-.aruga__body{ position:relative; z-index:1 }
-.aruga__badge{
+.flagship__body{ position:relative; z-index:1 }
+.flagship__badge{
   display:inline-block; font-size:.78rem; font-weight:700; letter-spacing:.04em;
   background:rgba(255,255,255,.16); color:#fff; padding:.45rem .9rem; border-radius:999px;
   border:1px solid rgba(255,255,255,.25); margin-bottom:1.1rem;
 }
-.aruga__title{ font-size:clamp(2.2rem,5vw,3.2rem); color:#fff; letter-spacing:-.03em }
-.aruga__desc{ margin:.9rem 0 1.6rem; max-width:38em; opacity:.94; font-size:1.06rem }
-.aruga__actions{ display:flex; align-items:center; gap:1rem; flex-wrap:wrap }
-.aruga .btn--primary{ background:var(--terra); box-shadow:0 10px 26px rgba(0,0,0,.28) }
-.aruga .btn--primary:hover{ background:var(--terra-dark) }
-.aruga__note{ font-size:.82rem; opacity:.7 }
-.aruga__art{ position:relative; z-index:1; justify-self:center }
-.aruga__art svg{ width:min(260px,42vw) }
-.aruga-leaf{ transform-origin:110px 102px; animation:sway 5s ease-in-out infinite }
-.aruga-leaf--2{ animation-duration:6s }
+.flagship__title{ font-size:clamp(2.2rem,5vw,3.2rem); color:#fff; letter-spacing:-.03em }
+.flagship__desc{ margin:.9rem 0 1.6rem; max-width:38em; opacity:.94; font-size:1.06rem }
+.flagship__actions{ display:flex; align-items:center; gap:1rem; flex-wrap:wrap }
+.flagship .btn--primary{ background:var(--terra); box-shadow:0 10px 26px rgba(0,0,0,.28) }
+.flagship .btn--primary:hover{ background:var(--terra-dark) }
+.flagship__art{ position:relative; z-index:1; justify-self:center }
+.flagship__art svg{ width:min(260px,42vw) }
+.flagship-leaf{ transform-origin:110px 102px; animation:sway 5s ease-in-out infinite }
+.flagship-leaf--2{ animation-duration:6s }
 
 .cards__lead{
   text-align:center; font-family:var(--hand); font-size:1.6rem; color:var(--green);
@@ -439,10 +438,10 @@ body.has-cursor, body.has-cursor *{ cursor:none !important }
   .hero__sub{ margin-inline:auto }
   .hero__actions, .hero__trust{ justify-content:center }
   .hero__scene{ max-width:520px; margin-inline:auto }
-  .aruga{ grid-template-columns:1fr; text-align:center }
-  .aruga__desc{ margin-inline:auto }
-  .aruga__actions{ justify-content:center }
-  .aruga__art{ order:-1 }
+  .flagship{ grid-template-columns:1fr; text-align:center }
+  .flagship__desc{ margin-inline:auto }
+  .flagship__actions{ justify-content:center }
+  .flagship__art{ order:-1 }
   .why__grid{ grid-template-columns:1fr }
   .cards, .steps{ grid-template-columns:repeat(2,1fr) }
   .values__grid{ grid-template-columns:repeat(2,1fr) }

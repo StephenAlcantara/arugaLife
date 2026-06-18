@@ -1,8 +1,8 @@
-# Evera
+# ArugaLife
 
-A lively, animated landing page for **Evera**, a warm, empathetic Filipino company
+A lively, animated landing page for **ArugaLife**, a warm, empathetic Filipino company
 that brings together caring services for every season of life. Its flagship service,
-**Aruga Life**, is a retirement benefits plan offered in partnership with the
+**Evera**, is a retirement benefits plan offered in partnership with the
 Philippine Retirement Authority (PRA). Soft sage greens, warm cream, and terracotta
 accents, with Filipino touches throughout (bahay kubo, bayanihan, jeepney, swaying
 palms, and drifting leaves).
@@ -34,7 +34,7 @@ python3 -m http.server 8000
    ```bash
    git init
    git add .
-   git commit -m "Evera landing page"
+   git commit -m "ArugaLife landing page"
    git branch -M main
    git remote add origin https://github.com/<you>/<repo>.git
    git push -u origin main
@@ -54,8 +54,8 @@ python3 -m http.server 8000
   silhouette avatar each. Swap the names, roles, and (later) photos in the
   `.founders__grid` block of `index.html`. To use a photo, replace the inline
   `<svg>` inside `.founder__avatar` with an `<img>`.
-- **Aruga Life link** points to `https://evera-arugalife.vercel.app` (the
-  "Explore Aruga Life" button in the services section).
+- **Evera link** points to `https://evera-arugalife.vercel.app` (the
+  "Explore Evera" button in the services section).
 - **Animations** are toggled off automatically for visitors who set
   *reduce motion* in their OS.
 
